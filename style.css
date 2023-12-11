@@ -1,0 +1,96 @@
+
+body {
+  background-color: bisque;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+h1 {
+  color: rgb(15, 22, 101);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+h2 {
+  color: rgb(64, 64, 117);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(116, 147, 71);
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: rgb(194, 195, 206);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: none;
+}
+
+.list-inligne {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 32px;
+}
+
+.list-inligne > li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 550px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 250px;
+  }
+}
